@@ -13,6 +13,17 @@ The project uses the **Online Retail** dataset from the [UCI Machine Learning Re
 
 ---
 
+## Explore the Analysis
+
+The complete analysis is available in two formats:
+
+- **Interactive HTML Report** — recommended for convenient exploration of the full analysis, with a persistent interactive table of contents for easy navigation.
+- **Jupyter Notebook** — the original notebook containing the complete analysis, Python code and outputs.
+
+The HTML report is generated directly from the Jupyter Notebook using `nbconvert` and enhanced with custom HTML, CSS and JavaScript to provide an automatically generated interactive navigation panel based on the notebook's section structure.
+
+---
+
 ## Project Objective
 
 This project was developed as a **portfolio project** to strengthen my practical data analysis skills and demonstrate my ability to work with a large real-world transactional dataset using Python and pandas.
@@ -216,6 +227,10 @@ data/Online Retail.xlsx
 ```text
 online_retail_analysis.ipynb
 ```
+
+5. To generate the browser-friendly HTML report with interactive navigation, run:
+
+    `python build_html.py`
 
 ---
 
