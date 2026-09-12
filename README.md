@@ -101,7 +101,7 @@ Identification of the most active and highest-revenue customers, examination of 
 ### Returns Analysis
 Comparison of returns with regular transactions, followed by geographic, product-level, customer-level, and temporal analysis of return activity.
 
-The complete analysis is available in [`online_retail_analysis.ipynb`](online_retail_analysis.ipynb).
+The complete analysis is available in both the **[interactive HTML report](online_retail_analysis.html)** and the original **[Jupyter Notebook](online_retail_analysis.ipynb)**.
 
 ---
 
