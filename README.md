@@ -228,9 +228,11 @@ data/Online Retail.xlsx
 online_retail_analysis.ipynb
 ```
 
-5. To generate the browser-friendly HTML report with interactive navigation, run:
+### 5. To generate the browser-friendly HTML report with interactive navigation, run:
 
-    `python build_html.py`
+```text
+python build_html.py
+```
 
 ---
 
