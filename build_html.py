@@ -12,6 +12,13 @@ subprocess.run(
 
 toc_code = """
 <style>
+
+.jp-CodeCell pre {
+    white-space: pre-wrap !important;
+    overflow-wrap: anywhere;
+    word-break: normal;
+}
+
 #custom-toc {
     position: fixed;
     top: 20px;
@@ -46,6 +53,15 @@ toc_code = """
 
 body {
     margin-left: 330px !important;
+}
+@media print {
+    #custom-toc {
+        display: none;
+    }
+
+    body {
+        margin-left: 0 !important;
+    }
 }
 </style>
 
@@ -91,5 +107,3 @@ document.addEventListener("DOMContentLoaded", function () {
 html = HTML_FILE.read_text(encoding="utf-8")
 html = html.replace("</body>", toc_code + "\n</body>")
 HTML_FILE.write_text(html, encoding="utf-8")
-
-print("HTML created successfully with interactive Table of Contents.")
